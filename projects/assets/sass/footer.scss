@@ -1,0 +1,38 @@
+.footer__top {
+    margin-bottom: 74px;
+  }
+
+  img {
+    @media screen and (max-width: 991px) {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  .row {
+    @media screen and (max-width: 991px) {
+      row-gap: 24px;
+      align-items: center;
+    }
+  }
+  .footer__links {
+    text-align: center;
+  }
+  
+  .footer__links-item-link {
+    font-size: 24px;
+    color: var(--dark);
+  }
+  
+  .footer__info {
+    text-align: right;
+    @media screen and (max-width: 991px) {
+      text-align: center;
+    }
+  }
+  
+  .footer__copyright {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 12px;
+  }/*# sourceMappingURL=style.css.map */

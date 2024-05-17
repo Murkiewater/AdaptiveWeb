@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body, p, h1, h2, h3, h4, h5, ul {
+  margin: 0;
+  font-family: Montserrat;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+:root {
+  --box-shadow: 0 0 35px rgba(12, 40, 54, 0.12);
+  --dark:#0C2836;
+  --xl: 1199px;
+  --lg: 991px;
+  --md: 768px;
+  --sm: 576px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--dark);
+}
+
+h1 {
+  font-family: "Monsterrat", sans-serif;
+  font-size: 48px;
+  line-height: 120%;
+  margin-bottom: 28px;
+}
+@media screen and (max-width: --md) {
+  h1 {
+    font-size: 36px;
+  }
+}
+@media screen and (max-width: --sm) {
+  h1 {
+    font-size: 32px;
+  }
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 32px;
+    margin-bottom: 28px;
+  }
+}/*# sourceMappingURL=base.css.map */

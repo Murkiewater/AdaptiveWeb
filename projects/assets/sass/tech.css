@@ -1,0 +1,50 @@
+.tech {
+  margin-bottom: 90px;
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.tech .row {
+  row-gap: 24px;
+}
+@media screen and (max-width: 576px) {
+  .tech .row {
+    row-gap: 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .tech .row .col-6 {
+    padding: 0 5px;
+  }
+}
+
+.tech__card {
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+  text-align: center;
+  padding: 55px 87px 24px 87px;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: var(--box-shadow);
+}
+@media screen and (max-width: 576px) {
+  .tech__card {
+    padding: 55px 20px 24px 20px;
+  }
+}
+.tech__card img {
+  width: 100%;
+}
+
+.tech__card-name {
+  font-size: 18px;
+  color: #8A99A8;
+}/*# sourceMappingURL=tech.css.map */
