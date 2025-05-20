@@ -1,0 +1,172 @@
+@charset "UTF-8";
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  --bs-gutter-x: 1.5rem;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+}
+
+@media (min-width: 576px) {
+  .container,
+  .container-sm {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container,
+  .container-md,
+  .container-sm {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1320px;
+  }
+}
+/*начало стилей для блока дистанционные уроки*/
+.distantless {
+  background-color: #dfe1ff;
+  padding: 80px 0;
+}
+.distantless h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #3f3a51;
+}
+@media screen and (max-width: 425px) {
+  .distantless h1 {
+    font-size: 35px;
+  }
+}
+.distantless p {
+  color: #3f3a51;
+  margin-top: 14px;
+}
+@media screen and (max-width: 992px) {
+  .distantless p {
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 992px) {
+  .distantless .textdistant {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .distantless .textdistant {
+    margin-bottom: 25px;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 992px) {
+  .distantless .textdistant br {
+    display: none;
+  }
+}
+.distantless .textdistant .button__startlesson-distant {
+  border-radius: 10px;
+  background-color: #4047e2;
+  height: 50px;
+  padding: 0 30px;
+  border-color: #4047e2;
+  border: none;
+  color: #fff;
+  margin-top: 10px;
+}
+@media screen and (max-width: 520px) {
+  .distantless .textdistant .button__startlesson-distant {
+    width: 100%;
+  }
+}
+.distantless .textdistant .button__startlesson-distant:focus {
+  transform: scale(0.95);
+}
+.distantless .textdistant .button__startlesson-distant:hover {
+  box-shadow: 0 0 10px 0 #725df6;
+}
+.distantless .ivanivanov {
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 35px;
+  width: 629px;
+}
+@media screen and (max-width: 425px) {
+  .distantless .ivanivanov {
+    padding: 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .distantless .ivanivanov {
+    margin: 0 auto;
+    width: auto;
+  }
+}
+@media screen and (max-width: 992px) {
+  .distantless .ivanivanov {
+    margin: 0 auto;
+    margin-top: 25px;
+  }
+}
+.distantless .ivanivanov p {
+  color: #000;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 425px) {
+  .distantless .ivanivanov p {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .distantless .ivanivanov p br {
+    display: none;
+  }
+}
+.distantless .ivanivanov .ivanivanovcard {
+  display: flex;
+  gap: 20px;
+}
+.distantless .ivanivanov .ivanivanovcard p {
+  color: #8f99ac;
+  margin: 0;
+}
+@media screen and (max-width: 768px) {
+  .distantless .ivanivanov .ivanivanovcard p br {
+    display: block;
+  }
+}
+.distantless .ivanivanov .ivanivanovcard span {
+  color: #000;
+}
+
+/*конец стилей для блока дистанционные уроки*//*# sourceMappingURL=distantless.css.map */

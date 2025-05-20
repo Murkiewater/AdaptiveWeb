@@ -1,0 +1,178 @@
+@charset "UTF-8";
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  --bs-gutter-x: 1.5rem;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+}
+
+@media (min-width: 576px) {
+  .container,
+  .container-sm {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container,
+  .container-md,
+  .container-sm {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1320px;
+  }
+}
+/*начало стилей для блока с возможностями*/
+.opportunities {
+  margin-top: 80px;
+  padding-bottom: 25px;
+}
+@media screen and (max-width: 576px) {
+  .opportunities .withOut__swiper {
+    display: none;
+  }
+}
+.opportunities .mySwiper {
+  display: none;
+  height: 375px;
+  width: 95%;
+}
+@media screen and (max-width: 576px) {
+  .opportunities .mySwiper {
+    display: block;
+  }
+}
+.opportunities h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #3f3a51;
+  text-align: center;
+  margin-bottom: 45px;
+}
+.opportunities .opportunities__card1,
+.opportunities .opportunities__card3 {
+  height: 320px;
+  padding-top: 49px;
+  padding-left: 45px;
+  padding-right: 45px;
+  background-color: #dfe1ff;
+  border-radius: 20px;
+  box-shadow: 0px 10px 50px 0px rgba(64, 71, 226, 0.2);
+}
+@media screen and (max-width: 1200px) {
+  .opportunities .opportunities__card1,
+  .opportunities .opportunities__card3 {
+    margin-bottom: 23px;
+  }
+}
+.opportunities .opportunities__card1 .opportunities__card-message,
+.opportunities .opportunities__card1 .opportunities__card-yesorno,
+.opportunities .opportunities__card3 .opportunities__card-message,
+.opportunities .opportunities__card3 .opportunities__card-yesorno {
+  width: 89px;
+  height: 89px;
+  border-radius: 45px;
+  background: #4047e2;
+  margin: 0 auto;
+}
+.opportunities .opportunities__card1 h3,
+.opportunities .opportunities__card3 h3 {
+  font-size: 20px;
+  color: #3f3a51;
+  margin-top: 25px;
+  margin-bottom: 18px;
+  text-align: center;
+}
+.opportunities .opportunities__card1 p,
+.opportunities .opportunities__card3 p {
+  color: #3f3a51;
+  text-align: center;
+}
+.opportunities .opportunities__card2,
+.opportunities .opportunities__card4 {
+  height: 320px;
+  padding-top: 49px;
+  padding-left: 45px;
+  padding-right: 45px;
+  background-color: #ffe1ad;
+  border-radius: 20px;
+  box-shadow: 0px 10px 50px 0px rgba(252, 162, 6, 0.2);
+}
+@media screen and (max-width: 1200px) {
+  .opportunities .opportunities__card2,
+  .opportunities .opportunities__card4 {
+    margin-bottom: 23px;
+  }
+}
+.opportunities .opportunities__card2 .opportunities__card-tv,
+.opportunities .opportunities__card2 .opportunities__card-time,
+.opportunities .opportunities__card4 .opportunities__card-tv,
+.opportunities .opportunities__card4 .opportunities__card-time {
+  width: 89px;
+  height: 89px;
+  border-radius: 45px;
+  background: #fca206;
+  margin: 0 auto;
+}
+.opportunities .opportunities__card2 h3,
+.opportunities .opportunities__card4 h3 {
+  font-size: 20px;
+  color: #3f3a51;
+  margin-top: 25px;
+  margin-bottom: 18px;
+  text-align: center;
+}
+.opportunities .opportunities__card2 p,
+.opportunities .opportunities__card4 p {
+  color: #3f3a51;
+  text-align: center;
+}
+.opportunities .opportunities__card-message img {
+  margin-left: 26px;
+  margin-top: 27px;
+}
+.opportunities .opportunities__card-tv img {
+  margin-left: 21px;
+  margin-top: 24px;
+}
+.opportunities .opportunities__card-yesorno img {
+  margin-top: 23px;
+  margin-left: 21px;
+}
+.opportunities .opportunities__card-time img {
+  margin-top: 20px;
+  margin-left: 16px;
+}
+
+/*конец стилей для блока с возможностями*//*# sourceMappingURL=opportunities.css.map */

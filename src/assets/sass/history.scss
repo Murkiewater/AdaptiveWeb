@@ -1,0 +1,95 @@
+@import "variables";
+/*начало стилей для блока с историей*/
+.history {
+  margin-top: 80px;
+
+  @media screen and (max-width: 991px) {
+    text-align: center;
+  }
+
+  img {
+    box-shadow: 0px 10px 50px 0px #4047e233;
+    border-radius: 10px;
+
+    @media screen and (max-width: $xl) {
+      width: 510px;
+    }
+
+    @media screen and (max-width: $lg) {
+      width: 100%;
+    }
+
+    @media screen and (max-width: $md) {
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+
+  .history__text {
+    @media screen and (max-width: $lg) {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    @media screen and (max-width: $md) {
+      margin-bottom: 25px;
+    }
+
+    h2 {
+      color: #3f3a51;
+      font-size: 32px;
+      font-weight: bold;
+      margin-top: 65px;
+      margin-bottom: 30px;
+
+      @media screen and (max-width: $xxl) {
+        margin-top: 70px;
+        margin-bottom: 11px;
+        margin-left: 35px;
+      }
+
+      @media screen and (max-width: $xl) {
+        margin-left: 0;
+        // margin-top: 54px;
+        margin-bottom: 11px;
+        margin-top: 35px;
+      }
+
+      @media screen and (max-width: $lg) {
+        margin-top: 10px;
+      }
+
+      @media screen and (max-width: $md) {
+        text-align: left;
+      }
+    }
+
+    p {
+      color: #3f3a51;
+      font-size: 18px;
+      margin-bottom: 20px;
+
+      br {
+        @media screen and (max-width: $lg) {
+          display: none;
+        }
+      }
+
+      @media screen and (max-width: $xxl) {
+        margin-left: 35px;
+      }
+
+      @media screen and (max-width: $xl) {
+        font-size: 17px;
+        margin-bottom: 5px;
+        margin-left: 0;
+      }
+
+      @media screen and (max-width: $md) {
+        text-align: left;
+      }
+    }
+  }
+}
+
+/*конец стилей для блока с историей*/

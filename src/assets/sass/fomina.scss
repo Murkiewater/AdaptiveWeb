@@ -1,0 +1,93 @@
+@import "variables";
+
+/*начало стилей для блока фомина*/
+.fomina {
+  margin-top: 80px;
+  background-color: #dfe1ff;
+
+  @media screen and (max-width: $lg) {
+    text-align: center;
+  }
+
+  @media screen and (max-width: $md) {
+    text-align: left;
+  }
+
+  @media screen and (max-width: $sm) {
+    background-color: #fff;
+  }
+
+  h2 {
+    margin-top: 73px;
+    margin-bottom: 28px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #3f3a51;
+
+    @media screen and (max-width: $xxl) {
+      margin-top: 80px;
+      margin-bottom: 13px;
+    }
+
+    @media screen and (max-width: $xl) {
+      margin-top: 33px;
+    }
+
+    @media screen and (max-width: $lg) {
+      margin-top: 50px;
+    }
+
+    @media screen and (max-width: 425px) {
+      font-size: 35px;
+    }
+  }
+
+  p {
+    color: #3f3a51;
+    font-size: 18px;
+    font-weight: 400;
+
+    @media screen and (max-width: $xxl) {
+      font-size: 17px;
+    }
+
+    br {
+        @media screen and (max-width: 425px) {
+            display: none;
+        }
+    }
+  }
+
+  img {
+    margin-top: 80px;
+    margin-left: 30px;
+    margin-bottom: 80px;
+    @media screen and (max-width: $xxl) {
+      margin-left: 0px;
+      width: 520px;
+    }
+
+    @media screen and (max-width: $xl) {
+      margin-left: 30px;
+      width: 510px;
+    }
+
+    @media screen and (max-width: 991px) {
+      width: 700px;
+      margin-top: 15px;
+      margin-left: 4px;
+    }
+
+    @media screen and (max-width: $md) {
+      width: 100%;
+      margin-top: 15px;
+      margin-left: 4px;
+    }
+
+    @media screen and (max-width: $sm) {
+      box-shadow: 0px 10px 50px 0px #4047e233;
+    }
+  }
+}
+
+/*конец стилей для блока фомина*/

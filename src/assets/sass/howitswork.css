@@ -1,0 +1,143 @@
+@charset "UTF-8";
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  --bs-gutter-x: 1.5rem;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+}
+
+@media (min-width: 576px) {
+  .container,
+  .container-sm {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container,
+  .container-md,
+  .container-sm {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1320px;
+  }
+}
+/*начало стилей для блока "как это работает?"*/
+.HowItsWork {
+  margin-bottom: 80px;
+}
+@media screen and (max-width: 992px) {
+  .HowItsWork {
+    text-align: center;
+  }
+}
+.HowItsWork h1 {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  color: #3F3A51;
+  margin-top: 67px;
+  margin-bottom: 54px;
+}
+.HowItsWork h3 {
+  font-size: 20px;
+  text-align: center;
+  color: #3F3A51;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+.HowItsWork p {
+  text-align: center;
+  font-size: 18px;
+  color: #3F3A51;
+}
+.HowItsWork img {
+  margin-bottom: 24px;
+}
+.HowItsWork .tableclass img {
+  margin-left: 122px;
+}
+@media screen and (max-width: 1400px) {
+  .HowItsWork .tableclass img {
+    margin-left: 87px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .HowItsWork .tableclass img {
+    margin-left: 56px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .HowItsWork .tableclass img {
+    margin-left: 0;
+  }
+}
+.HowItsWork .filesclass img {
+  margin-left: 68px;
+}
+@media screen and (max-width: 1400px) {
+  .HowItsWork .filesclass img {
+    margin-left: 45px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .HowItsWork .filesclass img {
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .HowItsWork .filesclass img {
+    margin-left: 0;
+  }
+}
+.HowItsWork .lessonsclass img {
+  margin-left: 56px;
+}
+@media screen and (max-width: 1400px) {
+  .HowItsWork .lessonsclass img {
+    margin-left: 27px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .HowItsWork .lessonsclass img {
+    margin-left: -2px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .HowItsWork .lessonsclass img {
+    margin-left: 0;
+  }
+}
+
+/*конец стилей для блока "как это работает?"*//*# sourceMappingURL=howitswork.css.map */

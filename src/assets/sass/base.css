@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/*сброс стилей*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+ul {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/*конец сброса стилей*/
+body {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #3F3A51;
+  z-index: 0;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 32px;
+  color: #3F3A51;
+}/*# sourceMappingURL=base.css.map */

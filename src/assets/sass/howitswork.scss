@@ -1,0 +1,87 @@
+@import "variables";
+
+/*начало стилей для блока "как это работает?"*/
+.HowItsWork {
+    margin-bottom: 80px;
+
+    @media screen and (max-width: $lg) {
+        text-align: center;
+    }
+
+    h1{
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+        color: #3F3A51;
+        margin-top: 67px;
+        margin-bottom: 54px;
+    }
+
+    h3 {
+        font-size: 20px;
+        text-align: center;
+        color: #3F3A51;
+        font-weight: 500;
+        margin-bottom: 24px;
+    }
+
+    p {
+        text-align: center;
+        font-size: 18px;
+        color: #3F3A51;
+    }
+
+    img {
+        margin-bottom: 24px;
+    }
+
+    .tableclass img {
+        margin-left: 122px;
+
+        @media screen and (max-width: $xxl) {
+            margin-left: 87px;
+        }
+
+        @media screen and (max-width: $xl) {
+            margin-left: 56px;
+        }
+
+        @media screen and (max-width: $lg) {
+            margin-left: 0;
+        }
+    }
+    
+    .filesclass img {
+        margin-left: 68px;
+
+        @media screen and (max-width: $xxl) {
+            margin-left: 45px;
+        }
+
+        @media screen and (max-width: $xl) {
+            margin-left: 10px;
+        }
+
+        @media screen and (max-width: $lg) {
+            margin-left: 0;
+        }
+    }
+    
+    .lessonsclass img {
+        margin-left: 56px;
+
+        @media screen and (max-width: $xxl) {
+            margin-left: 27px;
+        }
+
+        @media screen and (max-width: $xl) {
+            margin-left: -2px;
+        }
+
+        @media screen and (max-width: $lg) {
+            margin-left: 0;
+        }
+    }
+}
+
+/*конец стилей для блока "как это работает?"*/

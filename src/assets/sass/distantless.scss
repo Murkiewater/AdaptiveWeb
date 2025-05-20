@@ -1,0 +1,132 @@
+@import "variables";
+
+/*начало стилей для блока дистанционные уроки*/
+.distantless {
+  background-color: #dfe1ff;
+  padding: 80px 0;
+
+  @media screen and (max-width: 992px) {
+  }
+
+  h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #3f3a51;
+
+    @media screen and (max-width: 425px) {
+      font-size: 35px;
+
+    }
+  }
+
+  p {
+    color: #3f3a51;
+    margin-top: 14px;
+
+    @media screen and (max-width: 992px) {
+      margin-top: 0;
+    }
+  }
+
+  .textdistant {
+    @media screen and (max-width: 992px) {
+      text-align: center;
+    }
+
+    @media screen and (max-width: 768px) {
+      margin-bottom: 25px;
+      text-align: left;
+    }
+
+    br {
+      @media screen and (max-width: 992px) {
+        display: none;
+      }
+    }
+
+    .button__startlesson-distant {
+      border-radius: 10px;
+      background-color: #4047e2;
+      height: 50px;
+      padding: 0 30px;
+      border-color: #4047e2;
+      border: none;
+      color: #fff;
+      margin-top: 10px;
+
+      @media screen and (max-width: 520px) {
+        width: 100%;
+      }
+    }
+
+    .button__startlesson-distant:focus {
+      transform: scale(0.95);
+    }
+
+    .button__startlesson-distant:hover {
+      box-shadow: 0 0 10px 0 #725df6;
+    }
+  }
+
+  .ivanivanov {
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 35px;
+    width: 629px;
+
+    @media screen and (max-width: 425px) {
+      padding: 15px;
+    }
+
+    @media screen and (max-width: 768px) {
+      margin: 0 auto;
+      width: auto;
+    }
+
+    @media screen and (max-width: 1200px) {
+    }
+
+    @media screen and (max-width: 992px) {
+      // width: 590px;
+      margin: 0 auto;
+      margin-top: 25px;
+    }
+
+    p {
+      color: #000;
+      font-size: 20px;
+      margin-bottom: 20px;
+
+      @media screen and (max-width: 425px) {
+        margin-top: 10px;
+      }
+
+      br {
+        @media screen and (max-width: 768px) {
+          display: none;
+        }
+      }
+    }
+
+    .ivanivanovcard {
+      display: flex;
+      gap: 20px;
+
+      p {
+        color: #8f99ac;
+        margin: 0;
+
+        br {
+          @media screen and (max-width: 768px) {
+            display: block;
+          }
+        }
+      }
+
+      span {
+        color: #000;
+      }
+    }
+  }
+}
+/*конец стилей для блока дистанционные уроки*/

@@ -1,0 +1,129 @@
+@import "variables";
+/*начало стилей для блока с возможностями*/
+.opportunities {
+  margin-top: 80px;
+  padding-bottom: 25px;
+
+  .withOut__swiper {
+    @media screen and (max-width: $sm) {
+      display: none;
+    }
+  }
+
+  .mySwiper {
+    display: none;
+    height: 375px;
+    width: 95%;
+
+    @media screen and (max-width: $sm) {
+      display: block;
+    }
+  }
+
+  h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #3f3a51;
+    text-align: center;
+    margin-bottom: 45px;
+  }
+
+  .opportunities__card1,
+  .opportunities__card3 {
+    height: 320px;
+    padding-top: 49px;
+    padding-left: 45px;
+    padding-right: 45px;
+    background-color: #dfe1ff;
+    border-radius: 20px;
+    box-shadow: 0px 10px 50px 0px #4047e233;
+
+    @media screen and (max-width: $xl) {
+      margin-bottom: 23px;
+    }
+
+    .opportunities__card-message,
+    .opportunities__card-yesorno {
+      width: 89px;
+      height: 89px;
+      -webkit-border-radius: 45px;
+      -moz-border-radius: 45px;
+      border-radius: 45px;
+      background: #4047e2;
+      margin: 0 auto;
+    }
+
+    h3 {
+      font-size: 20px;
+      color: #3f3a51;
+      margin-top: 25px;
+      margin-bottom: 18px;
+      text-align: center;
+    }
+
+    p {
+      color: #3f3a51;
+      text-align: center;
+    }
+  }
+
+  .opportunities__card2,
+  .opportunities__card4 {
+    height: 320px;
+    padding-top: 49px;
+    padding-left: 45px;
+    padding-right: 45px;
+    background-color: #ffe1ad;
+    border-radius: 20px;
+    box-shadow: 0px 10px 50px 0px #fca20633;
+
+    @media screen and (max-width: $xl) {
+      margin-bottom: 23px;
+    }
+
+    .opportunities__card-tv,
+    .opportunities__card-time {
+      width: 89px;
+      height: 89px;
+      -webkit-border-radius: 45px;
+      -moz-border-radius: 45px;
+      border-radius: 45px;
+      background: #fca206;
+      margin: 0 auto;
+    }
+
+    h3 {
+      font-size: 20px;
+      color: #3f3a51;
+      margin-top: 25px;
+      margin-bottom: 18px;
+      text-align: center;
+    }
+
+    p {
+      color: #3f3a51;
+      text-align: center;
+    }
+  }
+
+  .opportunities__card-message img {
+    margin-left: 26px;
+    margin-top: 27px;
+  }
+
+  .opportunities__card-tv img {
+    margin-left: 21px;
+    margin-top: 24px;
+  }
+
+  .opportunities__card-yesorno img {
+    margin-top: 23px;
+    margin-left: 21px;
+  }
+
+  .opportunities__card-time img {
+    margin-top: 20px;
+    margin-left: 16px;
+  }
+}
+/*конец стилей для блока с возможностями*/

@@ -1,0 +1,57 @@
+@import "variables";
+
+/*начало стилей для футера*/
+.footer {
+  margin-top: 65px;
+
+  .footerimg {
+    display: flex;
+    margin-bottom: 43px;
+    justify-content: space-between;
+
+    @media screen and (max-width: $sm) {
+      text-align: center;
+      display: block;
+    }
+
+    .footerfond {
+      float: right;
+
+      @media screen and (max-width: $sm) {
+        margin-top: 35px;
+        float: none;
+      }
+    }
+  }
+
+  .create-line {
+    width: 1310px;
+    border-top: 1px solid #eaeaea;
+  }
+
+  .footerinfo {
+    display: flex;
+    padding-top: 38px;
+    color: #8f99ac;
+    justify-content: space-between;
+    float: right;
+
+    @media screen and (max-width: $sm) {
+      text-align: center;
+      display: block;
+    }
+
+    .footerdotsolution {
+      text-align: right;
+      color: #8f99ac;
+
+      @media screen and (max-width: $sm) {
+        text-align: center;
+        margin-top: 33px;
+        margin-bottom: 27px;
+      }
+    }
+  }
+}
+
+/*конец стилей для футера*/

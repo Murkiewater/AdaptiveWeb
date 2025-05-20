@@ -1,0 +1,403 @@
+@charset "UTF-8";
+/*сброс стилей*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+ul {
+    margin: 0;
+
+}*/
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/*конец сброса стилей*/
+body {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #3F3A51;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 32px;
+  color: #3F3A51;
+}
+
+/*стили для заголовка*/
+.navigation {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.navigation__list {
+  display: flex;
+}
+
+.navigation__list-item {
+  margin-right: 51px;
+  text-decoration: none;
+  list-style: none;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.navigation__list-item:last-child {
+  margin-right: 0;
+}
+
+.navigation__list-item-link {
+  color: #3F3A51;
+  text-decoration: none;
+}
+
+.navigation__list-item-link:hover {
+  color: #FFC04E;
+}
+
+/*конец стилей для заголовка*/
+/*начало стилей для основного блока*/
+.promo {
+  margin-top: 78px;
+}
+
+.promo h1 {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: #3F3A51;
+  margin-top: 56px;
+}
+
+.promo p {
+  color: #8F99AC;
+  font-size: 18px;
+}
+
+.promo__item-buttons {
+  margin-top: 19px;
+}
+
+.btn__start-les {
+  color: #fff;
+  padding: 17px 32px;
+  border-radius: 10px;
+  border: none;
+  transition: all 200ms;
+  background-color: #4047E2;
+  margin-right: 20px;
+}
+
+.btn__start-les:hover {
+  box-shadow: 0 0 10px 0 #725df6;
+}
+
+.btn__watch-demo {
+  color: #4047E2;
+  padding: 15px 30px;
+  border-radius: 10px;
+  border: 2px solid;
+  transition: all 200ms;
+  background-color: #fff;
+}
+
+.btn__watch-demo:hover {
+  box-shadow: 0 0 10px 0 #8a96fc;
+}
+
+.btn__watch-demo i {
+  padding-right: 10px;
+  color: #4047E2;
+}
+
+/*конец стилей для основного блока*/
+/*начало стилей для блока фомина*/
+.fomina {
+  margin-top: 80px;
+  background-color: #DFE1FF;
+}
+
+.fomina h2 {
+  margin-top: 73px;
+  margin-bottom: 28px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #3F3A51;
+}
+
+.fomina p {
+  color: #3F3A51;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.fomina img {
+  margin-top: 80px;
+  margin-left: 65px;
+  margin-bottom: 80px;
+}
+
+/*конец стилей для блока фомина*/
+/*начало стилей для блока с историей*/
+.history {
+  margin-top: 80px;
+}
+
+.history h2 {
+  color: #3F3A51;
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 130px;
+  margin-bottom: 30px;
+}
+
+.history p {
+  color: #3F3A51;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/*конец стилей для блока с историей*/
+/*начало стилей для блока с возможностями*/
+.opportunities {
+  margin-top: 80px;
+}
+
+.opportunities h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #3F3A51;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.opportunities__card1,
+.opportunities__card3 {
+  height: 320px;
+  padding-top: 49px;
+  padding-left: 45px;
+  padding-right: 45px;
+  background-color: #DFE1FF;
+  border-radius: 20px;
+}
+
+.opportunities__card2,
+.opportunities__card4 {
+  height: 320px;
+  padding-top: 49px;
+  padding-left: 45px;
+  padding-right: 45px;
+  background-color: #FFE1AD;
+  border-radius: 20px;
+}
+
+.opportunities__card-message,
+.opportunities__card-yesorno {
+  width: 89px;
+  height: 89px;
+  border-radius: 45px;
+  background: #4047E2;
+  margin-left: 62px;
+}
+
+.opportunities__card-tv,
+.opportunities__card-time {
+  width: 89px;
+  height: 89px;
+  border-radius: 45px;
+  background: #FCA206;
+  margin-left: 62px;
+}
+
+.opportunities__card-message img {
+  margin-left: 26px;
+  margin-top: 27px;
+}
+
+.opportunities__card-tv img {
+  margin-left: 21px;
+  margin-top: 24px;
+}
+
+.opportunities__card-yesorno img {
+  margin-top: 23px;
+  margin-left: 21px;
+}
+
+.opportunities__card-time img {
+  margin-top: 20px;
+  margin-left: 16px;
+}
+
+.opportunities__card1 h3,
+.opportunities__card2 h3,
+.opportunities__card3 h3,
+.opportunities__card4 h3 {
+  font-size: 20px;
+  color: #3F3A51;
+  margin-top: 25px;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+.opportunities__card1 p,
+.opportunities__card2 p,
+.opportunities__card3 p,
+.opportunities__card4 p {
+  color: #3F3A51;
+  text-align: center;
+}
+
+/*конец стилей для блока с возможностями*/
+/*начало стилей для блока "как это работает?"*/
+.HowItsWork h1 {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  color: #3F3A51;
+  margin-top: 67px;
+  margin-bottom: 54px;
+}
+
+.HowItsWork h3 {
+  font-size: 20px;
+  text-align: center;
+  color: #3F3A51;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+.HowItsWork p {
+  text-align: center;
+  font-size: 18px;
+  color: #3F3A51;
+}
+
+.HowItsWork img {
+  margin-bottom: 24px;
+}
+
+.tableclass img {
+  margin-left: 122px;
+}
+
+.filesclass img {
+  margin-left: 68px;
+}
+
+.lessonsclass img {
+  margin-left: 56px;
+}
+
+/*конец стилей для блока "как это работает?"*/
+/*начало стилей для блока дистанционные уроки*/
+.distantless {
+  background-color: #DFE1FF;
+  height: 415px;
+}
+
+.distantless h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #3F3A51;
+  margin-top: 104px;
+}
+
+.distantless p {
+  color: #3F3A51;
+  margin-top: 14px;
+}
+
+.button__startlesson-distant {
+  border-radius: 10px;
+  background-color: #4047E2;
+  height: 50px;
+  width: 180px;
+  border-color: #4047E2;
+  border: none;
+  color: #fff;
+}
+
+.button__startlesson-distant:focus {
+  transform: scale(0.95);
+}
+
+.button__startlesson-distant:hover {
+  box-shadow: 0 0 10px 0 #725df6;
+}
+
+.ivanivanov {
+  background-color: #fff;
+  border-radius: 35px;
+  width: 629px;
+  margin-top: 80px;
+  margin-left: 153px;
+}
+
+.ivanivanov p {
+  color: #000;
+  font-size: 20px;
+  margin-left: 30px;
+  padding-top: 30px;
+}
+
+.ivanivanovcard {
+  display: flex;
+}
+
+.ivanivanovcard p {
+  color: #8F99AC;
+  margin-bottom: 38px;
+  margin-top: -20px;
+}
+
+.ivanivanovcard span {
+  color: #000;
+}
+
+.ivanivanovcard img {
+  margin-left: 30px;
+}
+
+/*конец стилей для блока дистанционные уроки*/
+/*начало стилей для футера*/
+.footer {
+  margin-top: 65px;
+}
+
+.footerimg {
+  display: flex;
+  margin-bottom: 43px;
+}
+
+.create-line {
+  width: 1230px;
+  border-top: 1px solid #EAEAEA;
+}
+
+.footerinfo {
+  display: flex;
+  padding-top: 38px;
+  color: #8F99AC;
+}
+
+.footerdotsolution {
+  text-align: right;
+  color: #8F99AC;
+}
+
+/*конец стилей для футера*//*# sourceMappingURL=my.css.map */
